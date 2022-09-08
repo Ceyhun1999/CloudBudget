@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* styling elements of the header , h1, h2 e.t.c (HEADER)  */
+header { background: url('../img/headerbg.jpg') center/cover; min-height: 100vh; }
+.container { text-align: center }
+.header_color { background: #ee1a1a80; height: 100vh; }
+.header_container { 
+    padding-top: 6.5vh; 
+    text-align: center; 
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 5vh;
+    font: bold 2em 'Lato', sans-serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+h2 {
+    font: bold 1.5em 'Lato', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 5vh auto 5vh auto;
+}
+h3 { 
+    font: bold 2em 'Lato', sans-serif;
+    padding-bottom: 30px;
+}
+h4 {
+    font: bold 2em 'Lato', sans-serif;
+    padding: 60px 0;
+}
+h5 { 
+    font: bold 1.1em 'Lato', sans-serif; 
+    padding-bottom: 20px; 
+}
+h6 {
+    font: bold 1.1em 'Lato', sans-serif; 
+    margin-bottom: 25px;
+}
+
+#menu { padding-bottom: 5vh }
+#menu li a {
+    font: bold .9em 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #fff;   
+    padding: 10px;  
+}
+.fa-caret-down { color: #fff; margin-left: 10px; }
+#login {
+    font: .9em 'Lato', sans-serif;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: rgba(1, 1, 1, 0);
+    margin-left: 20px;
+}
+#sign_up {
+    padding: 16px 50px;
+    font: 700 .9em 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    border-radius: 6px; 
+    border: 1px solid #ac1a2800;
+}
+
+/* styling elements of the first section (Main: First-Section) */ 
+#first-section .container{ 
+    padding: 90px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text-video {  max-width: 460px; padding: 0 30px; }
+#first-section .img { position: relative; display: flex;max-width: 445px; }
+#first-section .img span {  display: none;}
+#first-section .img #video { width: 100%;  }
+#first-section p { font: .9em 'Lato', sans-serif; padding-bottom: 20px;}
+#first-section div:first-child a { 
+    display: inline-block;
+    font: .9em/ 1.25em 'Lato', sans-serif; 
+    color: #ED4C5C; 
+    margin-bottom: 20px
+}
+#play-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%)
+}
+
+/* styling elements of the second section (Main: Second-Section) */ 
+#second-section { 
+    background: #fafafa; 
+    padding-bottom: 1px;
+    position: relative;
+}
+.col1, .col2, .col3,.col { margin-bottom: 200px }
+.card {
+    margin: 0  auto;
+    text-align: center;
+    max-width: 350px;
+    position: relative;
+}
+.card-body {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate( -50%, 0);
+    background: #fff;
+    padding: 35px 30px;
+    filter: drop-shadow(0 0 0.75rem #0000001a);
+    width: calc(100% - 50px );
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card-body p, span { font: .9em/1.5em 'Lato', sans-serif }
+.card-body a { 
+    font: .9em/ 1.25em 'Lato', sans-serif; 
+    color: #ED4C5C; 
+    padding-top: 25px;
+    display: block;
+}
+#card-img1, #card-img2, #card-img3  { height: 250px }
+#card-img1 { background: url('../img/col1bg.jpg') center/cover }
+#card-img2 { background: url('../img/col2bg.jpg') center/cover }
+#card-img3 { background: url('../img/col3bg.jpg') center/cover }
+
+/* styling elements of the third section (Main: Third-Section) */ 
+.col-2-1, .col-2-2, .col-2-3, .col-2-4 { margin-bottom: 200px }
+.card-tech {
+    position: relative;
+    max-width: 235px;
+    margin: auto;
+}
+.card-tech p:nth-child(1) {  
+    font: bold 6em "Lato", sans-serif; 
+    color: #10101014;
+}
+.card-tech-body {position: absolute; top: 50%; }
+.card-tech-body p { font: .9em/1.5em 'Lato', sans-serif }
+.tech-img { height: 80px; }
+
+/* styling elements of the four section (Main: Four-Section) */ 
+#four-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#four-section {
+    padding: 95px 0;
+    background: #ED4C5C;
+    color: #fff;
+}
+.carousel-inner, .carousel-item { max-width: 280px; border-radius: 20px; }
+#text-carusel { max-width: 440px;margin-bottom: 20px; }
+#text-carusel p { font: .9em/1.5em 'Lato', sans-serif }
+#icons { display: inline-block; margin-top: 30px; }
+#icons * { margin-right: 20px }
+
+/* styling elements of the five section (Main: FIVE-Section) */ 
+#five-section { padding: 100px 0}
+form { max-width: 540px }
+#contact-text {
+    max-width: 435px;
+    text-align: justify;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    padding: 0 5px;
+}
+#last-first { 
+    display: flex; 
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+#contact-text p { font: .9em/1.5em 'Lato', sans-serif }
+#last-first input { width: 50%; padding: 10px 0 10px 15px; }
+form>input,select {
+    width: 100%; 
+    margin-bottom: 25px;
+    padding: 10px 0 10px 20px;
+}
+#btn-form { 
+    border: 1px solid #ed4c5c00;
+    padding: 15px 30px;
+    color: #fff;
+    background: #ed4c5c;
+    left: 0;
+    text-transform: uppercase;
+}
+
+/* styling  footer and elements of the footer-col  (Main: FOOTER) */ 
+footer { background: #fafafa; padding: 100px 0; }
+.footer-col { margin-bottom: 50px; text-align: center; }
+.footer-col i { 
+    color: #5f5d5d; 
+    font-size: 2.5em;
+    margin-right: 15px;
+}
+.footer-col li { 
+    font: .8em 'Lato', sans-serif ;
+    margin-bottom: 10px; 
+}
+
+@media only screen and (min-width: 768px) { 
+    .container { max-width: 1100px; margin:0 auto;  text-align: center; }
+
+    /* styling elements of the header , h1, h2 e.t.c (HEADER)  */
+    h1 { font-size: 4.5em; margin-top: 21vh; }
+    h2 { max-width: 500px }
+    nav { 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+    }
+    #menu { 
+        display: flex; 
+        justify-content: space-between;
+        padding: inherit; 
+    }
+    #sign_up:hover, #login:hover {
+        transition: .3s;
+        background: #ac1a28;
+        color: #fff;
+        border: 1px solid #ac1a28;
+        
+    }
+
+    /* styling elements of the first section (Main: First-Section) */ 
+    #first-section .container {
+        flex-direction: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 90px;        
+    }
+    #first-section div:first-child { text-align: justify }
+    #first-section .img #video { width: inherit  }
+    #play-button {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate( -50%, -50%)
+    }
+
+    /* styling elements of the second section (Main: Second-Section) */ 
+    article:not(:last-child) { margin-right: 10px }
+    .row { display: grid; grid-template-columns: auto auto auto; }
+
+    /* styling elements of the third section (Main: Third-Section) */ 
+    .row-two { display: grid; grid-template-columns: auto auto auto auto; }
+
+    /* styling elements of the four section (Main: Four-Section) */ 
+    #four-section .container {
+        display: flex; 
+        justify-content: space-between;
+        flex-direction: inherit;
+        align-items: inherit;
+        text-align: inherit;
+    }
+    .carousel-inner, .carousel-item { border-radius: 20px; width: 445px; max-width: inherit; }
+
+    /* styling elements of the five section (Main: FIVE-Section) */ 
+    form { 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #contact { display: flex; justify-content: space-between; }
+    #contact-text { text-align: justify; margin: inherit; }
+    #btn-form:hover {
+        transition: .3s;
+        background: #fff;
+        color: #ed4c5c;
+        border: 1px solid #ed4c5c;
+    }
+
+    /* styling  footer and elements of the footer-col  (Main: FOOTER) */ 
+    footer .container { display: flex; justify-content: space-between; }
+    .footer-col { text-align: justify; margin: inherit; }
+    .fa-vk:hover { color: blue }
+    .fa-instagram:hover { color: red }
+    .fa-github:hover { color: black }
+}
